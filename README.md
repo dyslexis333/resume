@@ -25,4 +25,6 @@
 node server.cjs 4174
 ```
 
-Откройте `http://127.0.0.1:4174`.
+Сайт: https://dyslexis333.github.io/resume/
+
+GitHub: https://github.com/dyslexis333
