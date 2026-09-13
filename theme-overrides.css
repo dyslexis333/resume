@@ -1,0 +1,25 @@
+/* Light theme tokens are kept separately so the color system is easy to adjust. */
+body.light-theme {
+  --black: #f0f0ec;
+  --white: #111110;
+  --gray: #64645f;
+  --line: #c9c9c3;
+  --soft: #e4e4df;
+}
+
+body.light-theme .topbar-link,
+body.light-theme .nav a,
+body.light-theme .theme-toggle { color: #61615d; }
+body.light-theme .hero-lead,
+body.light-theme .intro-text p { color: #5f5f5a; }
+body.light-theme .button-light { background: #111110; color: #f0f0ec; }
+body.light-theme .photo-frame { border-color: #a9a9a3; }
+body.light-theme .photo-frame::before { border-color: rgba(17, 17, 16, .25); }
+body.light-theme .photo-frame img { filter: none; }
+body.light-theme .photo-label { color: #f0f0ec; }
+body.light-theme .interest-item p,
+body.light-theme .interest-heading p,
+body.light-theme .contact-note,
+body.light-theme .experience-content p,
+body.light-theme .section-note { color: #64645f; }
+body.light-theme .footer { color: #777772; }

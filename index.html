@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Персональная визитка Максима Грибинюка — студент СПбГУПТД, спортсмен и поклонник киберспорта.">
+  <title>Максим Грибинюк — персональная визитка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme-overrides.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="monogram" href="#top" aria-label="В начало страницы">dyslexis</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#experience">Опыт</a>
+        <a href="#interests">Интересы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Включить светлую тему" aria-pressed="false"><span class="theme-toggle-icon" aria-hidden="true">☼</span><span class="theme-toggle-label">Светлая</span></button>
+      <a class="topbar-link" href="#contacts">Связаться <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Личная страница · Санкт-Петербург</p>
+          <h1 id="hero-title">Максим<br><em>Грибинюк</em></h1>
+          <p class="hero-lead">Студент дизайна, который ищет стажировку или первую работу в разработке, цифровом контенте и DevOps.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#about">Узнать больше <span aria-hidden="true">↓</span></a>
+            <span class="hero-caption">01 / 03</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img class="hero-photo" src="assets/maxim-light-photo.jpg" data-dark-src="assets/maxim-light-photo.jpg" data-light-src="assets/maxim-photo.jpg" alt="Максим Грибинюк у деревянной часовни зимой" fetchpriority="high">
+            <span class="photo-label">Портрет / 2025</span>
+          </div>
+          <div class="vertical-note">MG — SPb · 59°56′N 30°19′E</div>
+        </div>
+      </section>
+
+      <section class="intro section-rule" id="about" aria-labelledby="about-title">
+        <div class="section-index">01 <span>/</span> О СЕБЕ</div>
+        <div class="intro-content">
+          <h2 id="about-title">Делаю, двигаюсь,<br><span>развиваюсь.</span></h2>
+          <div class="intro-text">
+            <p>Меня зовут Максим Дмитриевич Грибинюк. Я родился 26 декабря 2007 года в Санкт-Петербурге и сейчас учусь в Санкт-Петербургском государственном университете промышленных технологий и дизайна.</p>
+            <p>Моя группа — <strong>2-МД-20</strong>. Мне близки среда, где можно создавать новое, и занятия, которые требуют характера и дисциплины.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="facts section-rule" aria-label="Факты обо мне">
+        <article class="fact"><h3>Образование</h3><p>СПбГУПТД<br><small>группа 2-МД-20</small></p></article>
+        <article class="fact"><h3>Дата рождения</h3><p>26.12.2007<br><small>Санкт-Петербург</small></p></article>
+        <article class="fact"><h3>Спортивный разряд</h3><p>КМС<br><small>плавание</small></p></article>
+      </section>
+
+      <section class="profile-grid section-rule" id="skills" aria-labelledby="skills-title">
+        <div class="section-index">02 <span>/</span> НАВЫКИ</div>
+        <div class="profile-grid-content">
+          <div><h2 id="skills-title">Сильные<br><em>стороны.</em></h2><p class="section-note">Навыки, которые я развиваю через учёбу, спорт и практику.</p></div>
+          <div class="skill-columns">
+            <div><h3>Hard skills</h3><ul><li>HTML5 и семантическая разметка</li><li>CSS3, Grid и Flexbox</li><li>JavaScript и DOM</li><li>Адаптивная вёрстка</li></ul></div>
+            <div><h3>Soft skills</h3><ul><li>Командная работа</li><li>Дисциплина и регулярность</li><li>Быстрая реакция</li><li>Готовность учиться</li></ul></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-rule" id="experience" aria-labelledby="experience-title">
+        <div class="section-index">03 <span>/</span> ОПЫТ</div>
+        <div class="experience-content"><h2 id="experience-title">Начинаю<br><em>путь.</em></h2><p>Коммерческого опыта пока нет. Сейчас я учусь в СПбГУПТД, развиваю навыки веб-разработки и ищу возможность применить их на стажировке или первой работе.</p></div>
+      </section>
+
+      <section class="interests section-rule" id="interests" aria-labelledby="interests-title">
+        <div class="section-index">04 <span>/</span> ИНТЕРЕСЫ</div>
+        <div class="interest-heading"><h2 id="interests-title">То, что держит<br><em>в тонусе.</em></h2><p>Три разных ритма, которые помогают оставаться собранным и любопытным.</p></div>
+        <div class="interest-list">
+          <article class="interest-item"><span>01</span><a class="interest-title-link" href="https://www.faceit.com/ru/players/dyslexis" target="_blank" rel="noopener noreferrer"><h3>Киберспорт</h3></a><p>CS2 · 3000 ELO · топ-1000 игроков.</p><b aria-hidden="true">↗</b></article>
+          <article class="interest-item"><span>02</span><h3>Волейбол</h3><p>Движение, доверие и энергия команды.</p><b aria-hidden="true">↗</b></article>
+          <article class="interest-item"><span>03</span><h3>Плавание</h3><p>КМС — результат регулярной работы.</p><b aria-hidden="true">↗</b></article>
+        </div>
+      </section>
+
+      <section class="contact section-rule" id="contacts" aria-labelledby="contact-title">
+        <div class="section-index">05 <span>/</span> КОНТАКТ</div>
+        <div class="contact-content"><h2 id="contact-title">Будем<br><em>на связи.</em></h2><div class="contact-details"><p class="contact-note">Открыт к диалогу,<br>новым знакомствам и идеям.</p><div class="contact-links"><a href="https://t.me/dysgbc" target="_blank" rel="noopener noreferrer">Telegram <span>@dysgbc</span><b aria-hidden="true">↗</b></a><a href="https://vk.com/dyslexisq" target="_blank" rel="noopener noreferrer">VK <span>@dyslexisq</span><b aria-hidden="true">↗</b></a></div></div></div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="footer-credit"><span>© 2026 Максим Грибинюк</span><span>Санкт-Петербург / Россия</span></div><div class="footer-notes"><small>AI: ChatGPT и Codex · время выполнения: около 2 часов</small><small>JavaScript: мобильное меню, темы, смена фотографии и сохранение выбора</small></div><a href="#top">Наверх ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
